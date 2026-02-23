@@ -1,0 +1,112 @@
+configuration {
+    modi:                       "drun,run";
+    show-icons:                  true;
+    display-drun:                " ";
+    display-run:                 "RUN";
+    drun-display-format:         "{name}";
+    font:                        "JetBrainsMono Nerd Font 12";
+}
+
+* {
+    /* Rosé Pine Dawn Palette */
+    bg:          #faf4ed;
+    bg-alt:      #f2e9e1;
+    fg:          #575279;
+    green:       #286983;
+    blue:        #56949f;
+    yellow:      #ea9d34;
+    aqua:        #907aa9;
+    red:         #b4637a;
+    grey:        #9893a5;
+
+    background-color:   transparent;
+    text-color:         @fg;
+    spacing:            0;
+}
+
+window {
+    width:             450px;
+    x-offset:          0px;
+    y-offset:          0px;
+    enabled:           true;
+    border:            2px;
+    border-color:      #dfdad9;
+    border-radius:     20px; 
+    background-color:  @bg;
+    cursor:            "default";
+}
+
+mainbox {
+    enabled:            true;
+    spacing:            0px;
+    background-color:   transparent;
+    children:           [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:            true;
+    padding:            20px;
+    background-color:   transparent;
+    children:           [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:            true;
+    padding:            8px 15px;
+    background-color:   #d7827e; /* The Rose color you requested */
+    text-color:         #faf4ed; /* Light color for the logo to pop against Rose */
+    border-radius:      12px;
+}
+
+entry {
+    enabled:            true;
+    padding:            8px;
+    text-color:         @fg;
+    cursor:             text;
+    placeholder:        "Search...";
+    placeholder-color:  @grey;
+    margin:             0 0 0 10px;
+}
+
+listview {
+    enabled:            true;
+    columns:            1;
+    lines:              8;
+    cycle:              true;
+    dynamic:            true;
+    scrollbar:          false;
+    layout:             vertical;
+    reverse:            false;
+    fixed-height:       true;
+    fixed-columns:      true;
+    
+    spacing:            5px;
+    padding:            10px 20px 20px 20px;
+    background-color:   transparent;
+}
+
+element {
+    enabled:            true;
+    spacing:            10px;
+    padding:            10px;
+    border-radius:      15px;
+    background-color:   transparent;
+    cursor:             pointer;
+}
+
+element selected {
+    background-color:   @bg-alt;
+    text-color:         @red; 
+}
+
+element-icon {
+    size:               24px;
+    cursor:             inherit;
+}
+
+element-text {
+    vertical-align:     0.5;
+    horizontal-align:   0.0;
+    cursor:             inherit;
+    text-color:         inherit;
+}

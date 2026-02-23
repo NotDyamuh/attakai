@@ -1,0 +1,8 @@
+{
+  "name": "Attakai Dotfiles",
+  "id": "com.dyamuh.attakai",
+  "version": "0.0.2-BETA",
+  "author": "Humayd Khan",
+  "source": "https://github.com/notdyamuh/attakai.git",
+  "subfolder": "dotfiles"
+}
