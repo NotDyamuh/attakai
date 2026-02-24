@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed --noconfirm base-devel git zsh hyprland kitty rofi waybar swaync qt5-wayland qt6-wayland xorg-xwayland xdg-desktop-portal-hyprland pipewire pipewire-pulse wireplumber jdk17-openjdk polkit-kde-agent
+sudo pacman -S --needed --noconfirm base-devel git zsh hyprland kitty rofi waybar swaync qt5-wayland qt6-wayland xorg-xwayland xdg-desktop-portal-hyprland pipewire pipewire-pulse wireplumber jdk17-openjdk polkit-kde-agent exa
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -28,6 +28,9 @@ cp -r .config/waybar ~/.config/
 
 chsh -s $(which zsh)
 
-swww-daemon & disown
 
-swww img ~/.config/wallpapers/gruvbox.png
+echo ""
+echo "installation complete! logout and go to hyprland."
+echo "the wallpaper is not yet set correctly."
+echo "please run super+t and change the theme to anything you want once in hyprland to configure wallpaper correctly"
+echo ""
