@@ -28,5 +28,6 @@ cp -r .config/waybar ~/.config/
 
 chsh -s $(which zsh)
 
-swww init
+swww-daemon & disown
+
 swww img ~/.config/wallpapers/gruvbox.png
