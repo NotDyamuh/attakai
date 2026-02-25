@@ -9,7 +9,7 @@
 
 ## Previews
 
-|                         **Workspace Overview**                         |                       **Terminal & NeoFetch**                        |                          **App Launcher**                           |
+|                         **Catppucchin Terminal**                         |                       **Gruvbox Hyprland**                        |                          **App Launcher**                           |
 | :--------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | ![Preview 1](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/catterminal.png) | ![Preview 2](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/gruvpreview.png) | ![Preview 3](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/gruvlauncher.png) |
 
