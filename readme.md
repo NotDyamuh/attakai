@@ -2,135 +2,95 @@
 
 \*\*A warm, cozy, and minimalist Hyprland configuration.\*\*
 
-
-
 `Attakai` means "warm" in Japanese, and that is exactly the vibe this rice aims for. Built for the balance between productivity and aesthetics, it features soft color palettes, rounded corners, and smooth animations that make your desktop feel more than a workspace.
 
-
-
 ---
-
-
 
 \### Previews
 
-
-
 | \*\*Workspace Overview\*\* | \*\*Terminal \& NeoFetch\*\* | \*\*App Launcher\*\* |
 
-| :---: | :---: | :---: |
+# Attakai (暖かい)
 
-| !\[Preview 1](https://via.placeholder.com/600x400?text=Desktop+Preview) | !\[Preview 2](https://via.placeholder.com/600x400?text=Terminal+Vibe) | !\[Preview 3](https://via.placeholder.com/600x400?text=App+Launcher) |
+**A warm, cozy, and minimalist Hyprland configuration.**
 
-
-
----
-
-
-
-\### Features
-
-\* \*\*Window Manager:\*\* Hyprland (Wayland)
-
-\* \*\*Bar:\*\* Waybar (Minimalist \& Functional)
-
-\* \*\*Launcher:\*\* Amazingly Styled Rofi
-
-\* \*\*Terminal:\*\* Kitty (with warm color schemes)
-
-\* \*\*Notifications:\*\* SwayNC (TB STYLED)
-
-\* \*\*Theme Engine:\*\* Manually Configured For Now
-
-
+`Attakai` means "warm" in Japanese — this rice aims for a comfortable, productive desktop with soft color palettes, subtle animations, and rounded visuals.
 
 ---
 
+## Previews
 
-
-\### Installation
-
-
-
-Getting `Attakai` up and running is straightforward. Ensure you have a fresh Arch Linux install with a Wayland-compatible GPU and a desktop enviorment (GNOME IS VERY PREFFERED).
-
-
-
-1\.  \*\*Clone the repository:\*\*
-
-&nbsp;   ```bash
-
-&nbsp;   git clone \[https://github.com/notdyamuh/attakai.git](https://github.com/notdyamuh/attakai.git)
-
-&nbsp;   cd attakai
-
-&nbsp;   ```
-
-
-
-2\.  \*\*Run the setup script:\*\*
-
-&nbsp;   ```bash
-
-&nbsp;   chmod +x setup.sh
-
-&nbsp;   ./setup.sh
-
-&nbsp;   ```
-
-
-
-3\.  \*\*Authentication:\*\*
-
-&nbsp;   > \[!IMPORTANT]
-
-&nbsp;   > The script will handle dependencies and the copying of configs. Stay near your terminal to enter your \*\*sudo password\*\* when prompted.
-
-
-
-4\.  \*\*Finalize:\*\*
-
-&nbsp;   \* Once the script finishes, \*\*logout\*\* of your current session.
-
-&nbsp;   \* Select \*\*Hyprland\*\* from your display manager (SDDM/GDM/LY).
-
-&nbsp;   \* Once logged in, use the integrated \*\*Theme Switcher\*\* (usually bound to `Super + T`) to select a theme. This will automatically configure your wallpaper and system colors.
-
-
+|                         **Workspace Overview**                         |                       **Terminal & NeoFetch**                        |                          **App Launcher**                           |
+| :--------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| ![Preview 1](https://via.placeholder.com/600x400?text=Desktop+Preview) | ![Preview 2](https://via.placeholder.com/600x400?text=Terminal+Vibe) | ![Preview 3](https://via.placeholder.com/600x400?text=App+Launcher) |
 
 ---
 
+## Features
 
-
-\### Keybindings
-
-
-
-| Action | Binding |
-
-| :--- | :--- |
-
-| \*\*Terminal\*\* | `Super + Return` |
-
-| \*\*Kill Window\*\* | `Super + Q` |
-
-| \*\*Launcher\*\* | `Super + D` |
-
-| \*\*Toggle Floating\*\* | `Super + V` |
-
-| \*\*Theme Menu\*\* | `Super + T` |
-
-
+- **Window manager:** Hyprland (Wayland)
+- **Bar:** Waybar (minimal & configurable)
+- **Launcher:** Rofi (styled)
+- **Terminal:** Kitty (warm color schemes)
+- **Notifications:** Swaync (configurable)
+- **Theme engine:** Manual theme configs and a theme switcher script
 
 ---
 
+## Prerequisites
 
+- A Wayland-capable GPU and drivers
+- A Linux distribution (Arch Linux recommended)
+- A display manager (SDDM, GDM, LightDM) or a way to start a Wayland session
 
 ---
 
+## Installation
 
+1. Clone the repository:
 
-\### Credits
+```bash
+git clone https://github.com/notdyamuh/attakai.git
+cd attakai
+```
 
-Special thanks to the Hyprland community and the ML4W dotfiles for inspiration to create my own dotfiles. This is actually my first finished rice!
+2. Make the setup script executable and run it:
 
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+The script installs dependencies and copies configs. You will be prompted for your `sudo` password when necessary — stay near the terminal during installation.
+
+3. Finalize:
+
+- Log out of your current session.
+- Select the `Hyprland` session from your display manager.
+- After logging in, use the theme switcher (default binding: `Super + T`) to select a theme and apply wallpapers/colors.
+
+---
+
+## Keybindings
+
+| Action              |     Binding      |
+| :------------------ | :--------------: |
+| **Terminal**        | `Super + Return` |
+| **Kill window**     |   `Super + Q`    |
+| **Launcher**        |   `Super + D`    |
+| **Toggle floating** |   `Super + V`    |
+| **Theme menu**      |   `Super + T`    |
+
+---
+
+## Contributing
+
+Contributions, suggestions, and improvements are welcome. Open an issue or submit a pull request on the repository.
+
+---
+
+## Credits
+
+Thanks to the Hyprland community and the various dotfiles projects that inspired this configuration.
+
+---

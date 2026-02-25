@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed --noconfirm base-devel git zsh hyprland kitty rofi waybar swaync qt5-wayland qt6-wayland xorg-xwayland xdg-desktop-portal-hyprland pipewire pipewire-pulse wireplumber jdk17-openjdk polkit-kde-agent exa
+sudo pacman -S --needed --noconfirm base-devel git zsh hyprland kitty rofi waybar swaync qt5-wayland qt6-wayland xorg-xwayland xdg-desktop-portal-hyprland hyprlock hypridle pipewire pipewire-pulse wireplumber jdk17-openjdk polkit-kde-agent exa
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
