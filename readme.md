@@ -11,7 +11,7 @@
 
 |                         **Workspace Overview**                         |                       **Terminal & NeoFetch**                        |                          **App Launcher**                           |
 | :--------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------: |
-| ![Preview 1](https://via.placeholder.com/600x400?text=Desktop+Preview) | ![Preview 2](https://via.placeholder.com/600x400?text=Terminal+Vibe) | ![Preview 3](https://via.placeholder.com/600x400?text=App+Launcher) |
+| ![Preview 1](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/catterminal.png) | ![Preview 2](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/gruvpreview.png) | ![Preview 3](https://raw.githubusercontent.com/notdyamuh/attakai/main/dotfiles/previews/gruvlauncher.png) |
 
 ---
 
