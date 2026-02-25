@@ -14,17 +14,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 
-cp .p10k.zsh ~/.p10k.zsh
-cp .zshrc ~/.zshrc
+cp dotfiles.p10k.zsh ~/.p10k.zsh
+cp dotfiles/.zshrc ~/.zshrc
 
 mkdir -p ~/.config
-cp -r .config/gtk-3.0 ~/.config/
-cp -r .config/hypr ~/.config/
-cp -r .config/kitty ~/.config/
-cp -r .config/neofetch ~/.config/
-cp -r .config/rofi ~/.config/
-cp -r .config/wallpapers ~/.config/
-cp -r .config/waybar ~/.config/
+cp -r dotfiles/.config/gtk-3.0 ~/.config/
+cp -r dotfiles.config/hypr ~/.config/
+cp -r dotfiles.config/kitty ~/.config/
+cp -r dotfiles.config/neofetch ~/.config/
+cp -r dotfiles.config/rofi ~/.config/
+cp -r dotfiles.config/wallpapers ~/.config/
+cp -r dotfiles.config/waybar ~/.config/
 
 chsh -s $(which zsh)
 
@@ -34,3 +34,4 @@ echo "installation complete! logout and go to hyprland."
 echo "the wallpaper is not yet set correctly."
 echo "please run super+t and change the theme to anything you want once in hyprland to configure wallpaper correctly"
 echo ""
+
