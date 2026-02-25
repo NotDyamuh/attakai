@@ -8,7 +8,7 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
-yay -S --noconfirm neofetch ttf-jetbrains-mono-nerd swww
+yay -S --noconfirm neofetch ttf-jetbrains-mono-nerd swww hyprshot swayimg
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 

@@ -1,14 +1,3 @@
-\# Attakai (暖かい)
-
-\*\*A warm, cozy, and minimalist Hyprland configuration.\*\*
-
-`Attakai` means "warm" in Japanese, and that is exactly the vibe this rice aims for. Built for the balance between productivity and aesthetics, it features soft color palettes, rounded corners, and smooth animations that make your desktop feel more than a workspace.
-
----
-
-\### Previews
-
-| \*\*Workspace Overview\*\* | \*\*Terminal \& NeoFetch\*\* | \*\*App Launcher\*\* |
 
 # Attakai (暖かい)
 
